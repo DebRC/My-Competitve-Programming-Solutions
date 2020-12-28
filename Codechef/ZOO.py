@@ -1,0 +1,12 @@
+n=int(input())
+while(n>0):
+    word=input()
+    new=list(word)
+    z_count=new.count("z")
+    o_count=new.count("o")
+    check=o_count/z_count
+    if(check==2):
+        print("Yes")
+    else:
+        print("No")
+    n-=1
